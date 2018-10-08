@@ -1,9 +1,9 @@
 all:
     # install pycocotools locally
-	python setup.py build_ext --inplace
-	rm -rf build
+        python3.6 setup.py build_ext --inplace
+        rm -rf build
 
 install:
-	# install pycocotools to the Python site-packages
-	python setup.py build_ext install
-	rm -rf build
+        # install pycocotools to the Python site-packages
+        python3.6 setup.py build_ext install
+        rm -rf build
